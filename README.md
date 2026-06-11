@@ -150,11 +150,11 @@ O protótipo foi capaz de:
 
 ### Protótipo apresentado
 
-![Protótipo](images/prototipo.jpg)
+![Protótipo](images/prototipo.jpeg)
 
 ### Equipe durante a apresentação
 
-![Equipe](images/equipe.jpg)
+![Equipe](images/equipe.jpeg)
 
 ### Demonstração em vídeo
 
