@@ -181,8 +181,8 @@ Projeto desenvolvido por alunos da FATEC Rio Preto para a disciplina de Programa
 
 ### Integrantes
 
-- Murilo Sonsin Ralio — [@Murilo004](https://github.com/Murilo004)
-- Gabriel Henrique Gonçalves Vicente — [GitHub](https://github.com/gabrielvicente3425-droid)
+- Murilo Sonsin Ralio — [Murilo Rálio](https://github.com/Murilo004)
+- Gabriel Henrique Gonçalves Vicente — [Gabriel Vicente](https://github.com/gabrielvicente3425-droid)
 - Christian Gabriel Alves Avelino
 - Gabriela Altino Lamira
 
