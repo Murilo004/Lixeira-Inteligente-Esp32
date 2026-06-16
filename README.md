@@ -156,10 +156,6 @@ O protótipo foi capaz de:
 
 ![Equipe](images/Equipe.jpeg)
 
-### Demonstração em vídeo
-
-📹 Em breve.
-
 ---
 
 ## 🔮 Trabalhos Futuros
