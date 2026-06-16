@@ -154,7 +154,7 @@ O protótipo foi capaz de:
 
 ### Equipe durante a apresentação
 
-![Equipe](images/equipe.jpeg)
+![Equipe](images/Equipe.jpeg)
 
 ### Demonstração em vídeo
 
