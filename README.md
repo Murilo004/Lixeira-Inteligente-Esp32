@@ -4,7 +4,7 @@ Projeto acadêmico desenvolvido utilizando ESP32 para monitoramento inteligente 
 
 O sistema monitora o nível de ocupação de uma lixeira utilizando sensores, obtém sua localização geográfica por GPS e disponibiliza informações que podem auxiliar na otimização dos serviços de coleta urbana.
 
-> 📚 Projeto desenvolvido para a disciplina de Programação de Aplicações Orientadas a Objetos (PAOO) da FATEC Rio Preto.
+> 📚 Projeto desenvolvido para a disciplina de Programação Avançada Orientada a Objeto (PAOO) da FATEC Rio Preto.
 >
 > 🚀 Projeto apresentado em uma mostra tecnológica da FATEC Rio Preto para professores, alunos e representantes de instituições públicas e privadas da região.
 
@@ -59,7 +59,7 @@ Com o objetivo de demonstrar uma aplicação prática de IoT para cidades inteli
 .
 ├── images/
 │   ├── prototipo.jpg
-│   └── equipe.jpg
+│   └── Equipe.jpg
 ├── lixeiraArduino.ino
 └── README.md
 ```
@@ -173,7 +173,7 @@ Como evolução do projeto, podem ser implementadas funcionalidades adicionais, 
 
 ## 👨‍💻 Equipe
 
-Projeto desenvolvido por alunos da FATEC Rio Preto para a disciplina de Programação de Aplicações Orientadas a Objetos (PAOO), com foco na aplicação de conceitos de IoT e sistemas embarcados para cidades inteligentes.
+Projeto desenvolvido por alunos da FATEC Rio Preto para a disciplina de Programação Avançada Orientada a Objeto (PAOO), com foco na aplicação de conceitos de IoT e sistemas embarcados para cidades inteligentes.
 
 ### Integrantes
 
