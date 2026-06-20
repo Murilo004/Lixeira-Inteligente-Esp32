@@ -1,8 +1,8 @@
-# 🗑️ Lixeira Inteligente com ESP32
+# 🗑️ Caçamba de Lixo Automatizada com ESP32
 
 Projeto acadêmico desenvolvido utilizando ESP32 para monitoramento inteligente de resíduos urbanos por meio de tecnologias de Internet das Coisas (IoT).
 
-O sistema monitora o nível de ocupação de uma lixeira utilizando sensores, obtém sua localização geográfica por GPS e disponibiliza informações que podem auxiliar na otimização dos serviços de coleta urbana.
+O sistema monitora o nível de ocupação de uma caçamba utilizando sensores, obtém sua localização geográfica por GPS e disponibiliza informações que podem auxiliar na otimização dos serviços de coleta urbana.
 
 > 📚 Projeto desenvolvido para a disciplina de Programação Avançada Orientada a Objeto (PAOO) da FATEC Rio Preto.
 >
@@ -12,15 +12,15 @@ O sistema monitora o nível de ocupação de uma lixeira utilizando sensores, ob
 
 ## 📖 Sobre o Projeto
 
-A gestão de resíduos urbanos enfrenta desafios relacionados à falta de informações em tempo real sobre o estado das lixeiras distribuídas pela cidade. Como consequência, algumas regiões podem apresentar acúmulo excessivo de lixo enquanto outras recebem coletas desnecessárias.
+A gestão de resíduos urbanos enfrenta desafios relacionados à falta de informações em tempo real sobre o estado das caçambas distribuídas pela cidade. Como consequência, algumas regiões podem apresentar acúmulo excessivo de lixo enquanto outras recebem coletas desnecessárias.
 
-Com o objetivo de demonstrar uma aplicação prática de IoT para cidades inteligentes, foi desenvolvido um protótipo de lixeira inteligente capaz de monitorar seu nível de ocupação e fornecer dados relevantes para o planejamento da coleta.
+Com o objetivo de demonstrar uma aplicação prática de IoT para cidades inteligentes, foi desenvolvido um protótipo de uma caçamba automatizada capaz de monitorar seu nível de ocupação e fornecer dados relevantes para o planejamento da coleta.
 
 ---
 
 ## 🎯 Objetivos
 
-- Monitorar o nível de ocupação da lixeira em tempo real;
+- Monitorar o nível de ocupação da caçamba em tempo real;
 - Identificar situações próximas da capacidade máxima;
 - Informar a localização da lixeira através de GPS;
 - Permitir interação remota via Bluetooth;
@@ -70,13 +70,13 @@ Com o objetivo de demonstrar uma aplicação prática de IoT para cidades inteli
 
 ### Monitoramento do Nível de Ocupação
 
-O sensor ultrassônico HC-SR04 realiza medições contínuas da distância entre a parte superior da lixeira e o lixo acumulado.
+O sensor ultrassônico HC-SR04 realiza medições contínuas da distância entre a parte superior da caçamba e o lixo acumulado.
 
-Com base nesses valores, o sistema calcula o percentual aproximado de ocupação da lixeira.
+Com base nesses valores, o sistema calcula o percentual aproximado de ocupação da caçamba.
 
 ### Indicação Visual
 
-O estado da lixeira é indicado através de LEDs:
+O estado da caçamba é indicado através de LEDs:
 
 | Nível de Ocupação | Indicação |
 |-------------------|-----------|
@@ -86,7 +86,7 @@ O estado da lixeira é indicado através de LEDs:
 
 ### Localização por GPS
 
-O módulo GPS NEO-6M fornece as coordenadas geográficas da lixeira.
+O módulo GPS NEO-6M fornece as coordenadas geográficas da caçamba.
 
 O sistema disponibiliza as seguintes informações:
 
@@ -104,7 +104,7 @@ O ESP32 cria um dispositivo Bluetooth denominado:
 Lixeira_Smart
 ```
 
-Por meio dele é possível enviar comandos para controlar a abertura e o fechamento da trava da lixeira.
+Por meio dele é possível enviar comandos para controlar a abertura e o fechamento da trava da caçamba.
 
 | Comando | Ação |
 |----------|--------|
@@ -113,7 +113,7 @@ Por meio dele é possível enviar comandos para controlar a abertura e o fechame
 
 ### Controle da Trava
 
-Um servo motor é utilizado para simular uma trava eletrônica da lixeira.
+Um servo motor é utilizado para simular uma trava eletrônica da caçamba.
 
 - 25° → Trava fechada
 - 100° → Trava aberta
@@ -139,7 +139,7 @@ Um servo motor é utilizado para simular uma trava eletrônica da lixeira.
 O protótipo foi capaz de:
 
 - Monitorar o nível de ocupação em tempo real;
-- Indicar visualmente o estado da lixeira através de LEDs;
+- Indicar visualmente o estado da caçamba através de LEDs;
 - Obter coordenadas geográficas utilizando GPS;
 - Transmitir informações por Bluetooth;
 - Demonstrar a viabilidade do uso de IoT na gestão inteligente de resíduos urbanos.
